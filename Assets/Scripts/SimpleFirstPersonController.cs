@@ -28,15 +28,15 @@ public class SimpleFirstPersonController : MonoBehaviour
 
     void Awake()
     {
-       if(GameObject.Find("Ground") != null)
-       {
+        if (GameObject.Find("Ground") != null)
+        {
             groundCheck = GameObject.Find("Ground").transform;
-       }
-       else
-       {
+        }
+        else
+        {
             Debug.LogError("I cannot find any Game Object named Ground in the current scene");
-       }
- 
+        }
+
     }
 
     void Start()
@@ -50,7 +50,7 @@ public class SimpleFirstPersonController : MonoBehaviour
 
     void Update()
     {
-        if(groundCheck == null) return;
+        if (groundCheck == null) return;
         HandleMovement();
         HandleMouseLook();
     }

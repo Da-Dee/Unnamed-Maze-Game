@@ -15,7 +15,11 @@ public class Player : MonoBehaviour
     {
         onEnterInterractable += OnEnterInterractable;
         onExitInterractable += OnExitInterractable;
-
+    }
+    void OnDisable()
+    {
+        onEnterInterractable -= OnEnterInterractable;
+        onExitInterractable -= OnExitInterractable;
     }
 
     private void OnEnterInterractable(ProximityInteraction inte)
