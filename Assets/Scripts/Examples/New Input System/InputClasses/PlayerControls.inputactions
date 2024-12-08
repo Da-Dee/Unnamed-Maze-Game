@@ -1,0 +1,73 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "8669c870-0116-4aa5-86bc-3894b581cf30",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "af599f68-6e8a-4283-8d7e-8897ba5b0a38",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3e1d7c28-0046-464c-8831-57da4c8bb04c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc51c9ae-0d0f-447e-8167-6bee21d6cc66",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "dc84e3b8-5fbf-4cd5-a046-e4d59e7596af",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "44072850-da42-4acf-ab92-7eb0704017cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "07b2f11f-6201-4ca4-9fee-ea7060807c29",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
